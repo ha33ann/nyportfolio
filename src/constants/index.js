@@ -4,22 +4,22 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   java,
   carrent,
   jobit,
   tripguide,
   threejs,
+  android,
+  vue,
+  flutter,
 } from "../assets";
 
 export const navLinks = [
@@ -70,16 +70,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -102,12 +94,24 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "android",
+    icon: android,
+  },
+  {
+    name: "vue",
+    icon: vue,
+  },
+  {
+    name: "flutter",
+    icon: flutter,
   },
 ];
 
