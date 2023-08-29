@@ -9,7 +9,6 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  mongodb,
   git,
   docker,
   java,
@@ -81,10 +80,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  
   {
     name: "Three JS",
     icon: threejs,
@@ -177,10 +173,6 @@ const projects = [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
